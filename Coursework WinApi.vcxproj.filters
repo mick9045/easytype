@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\dialogs header files">
+      <UniqueIdentifier>{2c9761f3-4977-4dc3-baee-87ac8e46cb7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\dialogs">
+      <UniqueIdentifier>{0800b7a4-9c05-4b3e-a5e0-bf863c5ff7e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\typing languages header files">
+      <UniqueIdentifier>{96dfc8dd-d0e2-4b6a-890f-8d0e60237c7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\typing languages">
+      <UniqueIdentifier>{c98a67d4-68a7-4168-a99e-804272f93127}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DPI_Scale.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseDialogWindow.cpp">
+      <Filter>Source Files\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="MainDialog.cpp">
+      <Filter>Source Files\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="UserLogInDialog.cpp">
+      <Filter>Source Files\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardDialog.cpp">
+      <Filter>Source Files\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserManagement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalizationObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextDialog.cpp">
+      <Filter>Source Files\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeButtonInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RussianTypingLanguage.cpp">
+      <Filter>Source Files\typing languages</Filter>
+    </ClCompile>
+    <ClCompile Include="EnglishTypingLanguage.cpp">
+      <Filter>Source Files\typing languages</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseTypingLanguage.cpp">
+      <Filter>Source Files\typing languages</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStatisticsDialog.cpp">
+      <Filter>Source Files\dialogs</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Coursework WinApi.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="Coursework WinApi.exe.manifest">
+      <Filter>Source Files</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DPI_Scale.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="target_version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseDialogWindow.h">
+      <Filter>Header Files\dialogs header files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainDialog.h">
+      <Filter>Header Files\dialogs header files</Filter>
+    </ClInclude>
+    <ClInclude Include="UserLogInDialog.h">
+      <Filter>Header Files\dialogs header files</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardDialog.h">
+      <Filter>Header Files\dialogs header files</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UserManagement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomExceptions.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalizationObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextDialog.h">
+      <Filter>Header Files\dialogs header files</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeButtonInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RussianTypingLanguage.h">
+      <Filter>Header Files\typing languages header files</Filter>
+    </ClInclude>
+    <ClInclude Include="EnglishTypingLanguage.h">
+      <Filter>Header Files\typing languages header files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseTypingLanguage.h">
+      <Filter>Header Files\typing languages header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStatisticsDialog.h">
+      <Filter>Header Files\dialogs header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ms.mc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="russia_flag.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="united_kingdom_flag.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\hands\left_hand.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\hands\left_hand_little.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\hands\left_hand_middle.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\hands\left_hand_pointer.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\hands\left_hand_ring.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\hands\left_hand_thumb.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\hands\right_hand.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\hands\right_hand_little.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\hands\right_hand_middle.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\hands\right_hand_pointer.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\hands\right_hand_thumb.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\hands\right_hand_ring.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="keyboard.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="keyboard_128.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="app.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
